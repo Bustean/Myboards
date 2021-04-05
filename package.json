@@ -9,13 +9,13 @@
                 {
                     "name": "My Boards",
                     "architecture": "avr",
-                    "version": "0.1.3",
+                    "version": "0.1.0",
                     "category": "Contributed",
                     "help": {
                         "online": "https://github.com/Bustean/Myboards"
                     },
-                    "url": "https://github.com/Bustean/Myboards/compare/v0.1.3/Myboards-0.1.3.zip",
-                    "archiveFileName": "Myboards-0.1.3.zip",
+                    "url": "https://github.com/Bustean/Myboards/compare/v0.1.0/Myboards-0.1.0.zip",
+                    "archiveFileName": "Myboards-0.1.0.zip",
                     "checksum": "SHA-256:a20f1c8baa9d90a3051c783848bdb92a",
                     "size": "283819",
                     "boards": [
