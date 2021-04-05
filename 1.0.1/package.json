@@ -14,10 +14,10 @@
                     "help": {
                         "online": "https://github.com/Bustean/Myboards"
                     },
-                    "url": "https://github.com/Bustean/Myboards/releases/download/v0.1.0/Myboards-0.1.0.zip",
-                    "archiveFileName": "Myboards-0.1.0.zip",
-                    "checksum": "SHA-256:a74713f86afde366aee13454447843ca",
-                    "size": "1869",
+                    "url": "https://github.com/Bustean/Myboards/blob/main/1.0.1.zip",
+                    "archiveFileName": "1.0.1.zip",
+                    "checksum": "SHA-256:d5048b8d236a36ada82bb919796ee4de",
+                    "size": "99302",
                     "boards": [
                         {
                             "name": "Buster Arduino Leonardo"
