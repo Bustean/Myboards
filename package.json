@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "My boards",
+            "maintainer": "Bustean",
+            "websiteURL": "https://github.com/Bustean/Myboards",
+            "email": "bogdancorbean@gmail.com",
+            "platforms": [
+                {
+                    "name": "My Boards",
+                    "architecture": "avr",
+                    "version": "0.1.3",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://github.com/Bustean/Myboards"
+                    },
+                    "url": "https://github.com/Bustean/Myboards/compare/v0.1.3/Myboards-0.1.3.zip",
+                    "archiveFileName": "Myboards-0.1.3.zip",
+                    "checksum": "SHA-256:a20f1c8baa9d90a3051c783848bdb92a",
+                    "size": "283819",
+                    "boards": [
+                        {
+                            "name": "Buster Arduino Leonardo"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.8.1-arduino5"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.0.1-arduino5"
+                        }
+                    ]
+                }
+            ],
+            "tools": []
+        }
+    ]
+}

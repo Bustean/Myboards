@@ -1,0 +1,42 @@
+menu.device=Device
+
+################################################################################
+################################ Arduino Leonardo ##############################
+################################################################################
+
+leonardoclp.name=Buster Arduino Leonardo
+
+leonardoclp.upload.tool=arduino:avrdude
+leonardoclp.upload.protocol=avr109
+leonardoclp.upload.maximum_size=28672
+leonardoclp.upload.maximum_data_size=2560
+leonardoclp.upload.speed=57600
+leonardoclp.upload.disable_flushing=true
+leonardoclp.upload.use_1200bps_touch=true
+leonardoclp.upload.wait_for_upload_port=true
+
+leonardoclp.build.mcu=atmega32u4
+leonardoclp.build.f_cpu=16000000L
+leonardoclp.build.vid=0x6969
+leonardoclp.build.usb_manufacturer="Bustean"
+leonardoclp.build.board=AVR_LEONARDO
+leonardoclp.build.core=arduino:arduino
+leonardoclp.build.variant=arduino:leonardo
+leonardoclp.build.extra_flags={build.usb_flags}
+
+# devices
+leonardoclp.menu.device.ok=Osu Keypad
+leonardoclp.menu.device.ok.build.pid=0x0001
+leonardoclp.menu.device.ok.build.usb_product="Osu Keypad"
+leonardoclp.menu.device.bp=Bustean Pedals
+leonardoclp.menu.device.bp.build.pid=0x0002
+leonardoclp.menu.device.bp.build.usb_product="Bigdaab Pedals"
+leonardoclp.menu.device.ogw=OG Wheel
+leonardoclp.menu.device.ogw.build.pid=0x0003
+leonardoclp.menu.device.ogw.build.usb_product="OG Wheel"
+leonardoclp.menu.device.fiw=F1 Wheel
+leonardoclp.menu.device.fiw.build.pid=0x0004
+leonardoclp.menu.device.fiw.build.usb_product="F1 Wheel"
+leonardoclp.menu.device.mc=Midi Controller
+leonardoclp.menu.device.mc.build.pid=0x0005
+leonardoclp.menu.device.mc.build.usb_product="Midi Controller"
